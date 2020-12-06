@@ -38,73 +38,141 @@ function random()
  }
 }
 function p1addscore(img) {
-
-    if (img.id=="02"){
-      y=y+2;
-     
-    //  return([ console.log(y=y+2),  p1score.innerHTML = y]);
-    }
-    if (img.id=="03"){
-      y=y+3;
-      p1score.innerHTML = y;
+    // let img1 = img;
+    // let ID = 0;
+    // for (let i = 0; i < cards.length; i++) { //this is only for some testing
+    //   const ID = cards[i];
       
-      // return console.log(y=y+3);
-    }
-    if (img.id=="04"){
-      y=y+4
+    //   console.log(ID);
+    
+    switch (img.id) {
+      case "02":
+      y=y+2;
       p1score.innerHTML = y;
-    // return console.log(y=y+4)
-    }
-    if (img.id=="05"){
-      y=y+5
+      // console.log(y);
+        break;
+        case "03":
+        y=y+3;
       p1score.innerHTML = y;
-      // return  
-    }
-    if (img.id=="06"){
-      y=y+6;
+      // console.log(y);
+        break;
+        case "04":
+        y=y+4;
       p1score.innerHTML = y;
-      return  
-    }
-    if (img.id=="07"){
-      y=y+7;
+        break;
+        case "05":
+        y=y+5;
       p1score.innerHTML = y;
-      // return 
-    }
-    if (img.id=="08"){
-      y=y+8
+        break;
+        case "06":
+        y=y+6;
       p1score.innerHTML = y;
-      // return 
-    }
-    if (img.id=="09"){
-      y=y+9;
+        break;
+        case "07":
+        y=y+7;
       p1score.innerHTML = y;
-      // return 
-    }
-    if (img.id=="10"){
-      y=y+10;
+        break;
+        case "08":
+        y=y+8;
       p1score.innerHTML = y;
-      // return 
-    }
-    if (img.id=="11"){
-      y=y+10;
+        break;
+        case "09":
+        y=y+9;
       p1score.innerHTML = y;
-    //  return 
-    }
-    if (img.id=="12"){
-      y=y+10;
+        break;
+        case "10":
+        y=y+10;
       p1score.innerHTML = y;
-      // return 
-    }
-    if (img.id=="01"){
-      y=y+11;
+        break;
+        case "11":
+        y=y+10;
       p1score.innerHTML = y;
-      // return 
-    }
-    if (img.id=="13"){
-      y=y+10;
+        break;
+        case "12":
+        y=y+10;
       p1score.innerHTML = y;
-      // return
+        break;
+        case "13":
+        y=y+10;
+      p1score.innerHTML = y;
+        break;
+        case "01" :
+        y=y+11;
+      p1score.innerHTML = y;
+        break;
+      default:
+        'something went wrong';
+        break;
     }
+    {
+//  }
+    // if (img.id=="02"){
+    //   y=y+2;
+     
+    // //  return([ console.log(y=y+2),  p1score.innerHTML = y]);
+    // }
+    // if (img.id=="03"){
+    //   y=y+3;
+    //   p1score.innerHTML = y;
+      
+    //   // return console.log(y=y+3);
+    // }
+    // if (img.id=="04"){
+    //   y=y+4
+    //   p1score.innerHTML = y;
+    // // return console.log(y=y+4)
+    // }
+    // if (img.id=="05"){
+    //   y=y+5
+    //   p1score.innerHTML = y;
+    //   // return  
+    // }
+    // if (img.id=="06"){
+    //   y=y+6;
+    //   p1score.innerHTML = y;
+    //   return  
+    // }
+    // if (img.id=="07"){
+    //   y=y+7;
+    //   p1score.innerHTML = y;
+    //   // return 
+    // }
+    // if (img.id=="08"){
+    //   y=y+8
+    //   p1score.innerHTML = y;
+    //   // return 
+    // }
+    // if (img.id=="09"){
+    //   y=y+9;
+    //   p1score.innerHTML = y;
+    //   // return 
+    // }
+    // if (img.id=="10"){
+    //   y=y+10;
+    //   p1score.innerHTML = y;
+    //   // return 
+    // }
+    // if (img.id=="11"){
+    //   y=y+10;
+    //   p1score.innerHTML = y;
+    // //  return 
+    // }
+    // if (img.id=="12"){
+    //   y=y+10;
+    //   p1score.innerHTML = y;
+    //   // return 
+    // }
+    // if (img.id=="01"){
+    //   y=y+11;
+    //   p1score.innerHTML = y;
+    //   // return 
+    // }
+    // if (img.id=="13"){
+    //   y=y+10;
+    //   p1score.innerHTML = y;
+    //   // return
+    // }
+   }
     if(y>21){
     fin.innerHTML="Player2 Won";
     // if(fin.innerHTML=="Player2 Won"){
@@ -121,58 +189,121 @@ function p1addscore(img) {
 // return(p1score.innerHTML = y )
 }
 function p2addscore(img) {
-    if (img.id=="02"){
-      z=z+2;
-      p2score.innerHTML=z;
-    }
-    if (img.id=="03"){
+
+  switch (img.id) {
+    case "02":
+    z=z+2;
+    p1score.innerHTML = z;
+    // console.log(z);
+      break;
+      case "03":
       z=z+3;
-      p2score.innerHTML=z;
-    }
-    if (img.id=="04"){
+    p1score.innerHTML = z;
+    // console.log(z);
+      break;
+      case "04":
       z=z+4;
-      p2score.innerHTML=z;
-    }
-    if (img.id=="05"){
+    p1score.innerHTML = z;
+      break;
+      case "05":
       z=z+5;
-      p2score.innerHTML=z;
-    }
-    if (img.id=="06"){
+    p1score.innerHTML = z;
+      break;
+      case "06":
       z=z+6;
-      p2score.innerHTML=z;
-    }
-    if (img.id=="07"){
+    p1score.innerHTML = z;
+      break;
+      case "07":
       z=z+7;
-      p2score.innerHTML=z;
-    }
-    if (img.id=="08"){
+    p1score.innerHTML = z;
+      break;
+      case "08":
       z=z+8;
-      p2score.innerHTML=z;
-    }
-    if (img.id=="09"){
+    p1score.innerHTML = z;
+      break;
+      case "09":
       z=z+9;
-      p2score.innerHTML=z;
-    }
-    if (img.id=="10"){
-    z=z+10;
-    p2score.innerHTML=z;
-    }
-    if (img.id=="11"){
+    p1score.innerHTML = z;
+      break;
+      case "10":
       z=z+10;
-      p2score.innerHTML=z;
-    }
-    if (img.id=="12"){
+    p1score.innerHTML = z;
+      break;
+      case "11":
       z=z+10;
-      p2score.innerHTML=z;
-    }
-    if (img.id=="01"){
+    p1score.innerHTML = z;
+      break;
+      case "12":
+      z=z+10;
+    p1score.innerHTML = z;
+      break;
+      case "13":
+      z=z+10;
+    p1score.innerHTML = z;
+      break;
+      case "01" :
       z=z+11;
-      p2score.innerHTML=z;
-    }
-    if (img.id=="13"){
-      z=z+10;
-      p2score.innerHTML=z;
-    }
+    p1score.innerHTML = z;
+      break;
+    default:
+      'something went wrong';
+      break;
+  }
+
+  {
+//     if (img.id=="02"){
+//       z=z+2;
+//       p2score.innerHTML=z;
+//     }
+//     if (img.id=="03"){
+//       z=z+3;
+//       p2score.innerHTML=z;
+//     }
+//     if (img.id=="04"){
+//       z=z+4;
+//       p2score.innerHTML=z;
+//     }
+//     if (img.id=="05"){
+//       z=z+5;
+//       p2score.innerHTML=z;
+//     }
+//     if (img.id=="06"){
+//       z=z+6;
+//       p2score.innerHTML=z;
+//     }
+//     if (img.id=="07"){
+//       z=z+7;
+//       p2score.innerHTML=z;
+//     }
+//     if (img.id=="08"){
+//       z=z+8;
+//       p2score.innerHTML=z;
+//     }
+//     if (img.id=="09"){
+//       z=z+9;
+//       p2score.innerHTML=z;
+//     }
+//     if (img.id=="10"){
+//     z=z+10;
+//     p2score.innerHTML=z;
+//     }
+//     if (img.id=="11"){
+//       z=z+10;
+//       p2score.innerHTML=z;
+//     }
+//     if (img.id=="12"){
+//       z=z+10;
+//       p2score.innerHTML=z;
+//     }
+//     if (img.id=="01"){
+//       z=z+11;
+//       p2score.innerHTML=z;
+//     }
+//     if (img.id=="13"){
+//       z=z+10;
+//       p2score.innerHTML=z;
+//     }
+  }
     if(z>21){
     fin.innerHTML="Player1 Won";
     p2score.innerHTML=z;
