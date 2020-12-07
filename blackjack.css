@@ -1,3 +1,4 @@
+
 *{
   color: aquamarine;
 }
@@ -6,6 +7,7 @@
   font: 3px;
   font-size: 0.3cm;
 }
+
 .head{
   background-color: #FF0800;
   padding: 4px;
@@ -18,7 +20,9 @@
   font-family: 'Roboto Slab',serif;
 }
 .master{
+
 background-color:skyblue;
+ 
 }
 .head3{
   width: 100%;
@@ -75,6 +79,7 @@ table tr td{
   padding:30px;
 }
 
+
 .animatedBox {
   color: aqua;
   width: 300px;
@@ -99,3 +104,4 @@ table tr td{
 #top :hover, #span :hover{
   color:yellowgreen;
 }
+ 

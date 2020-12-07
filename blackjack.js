@@ -476,7 +476,7 @@ function playagain(){
    m=0;
    p1s=0;
    p2s=0;
-   de = 0;
+   ds = 0;
    dealerscore=0;
   //  dealer()
    return y,z,m,p1s,p2s,de,dealerscore;
