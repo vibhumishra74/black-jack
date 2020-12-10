@@ -1,0 +1,22 @@
+{
+  "name": "black-jack",
+  "version": "1.0.0",
+  "description": "simple game using html css and javascript.",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vibhumishra74/black-jack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vibhumishra74/black-jack/issues"
+  },
+  "homepage": "https://github.com/vibhumishra74/black-jack#readme",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
